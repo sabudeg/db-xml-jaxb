@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tableModel>
+    <Schema schameName="OKUL">
+        <table tableName="ders">
+            <columns name="ID" type="int" size="10" nullable="false"/>
+            <columns name="KODU" type="varchar" size="10" nullable="false"/>
+            <columns name="ADI" type="varchar" size="255" nullable="false"/>
+            <columns name="AKTIF" type="int" size="1" def="0" nullable="false"/>
+        </table>
+        <table tableName="egitmen">
+            <columns name="ID" type="int" size="10" nullable="false"/>
+            <columns name="KODU" type="varchar" size="10" nullable="false"/>
+            <columns name="ADI" type="varchar" size="255" nullable="false"/>
+            <columns name="AKTIF" type="int" size="1" def="0" nullable="false"/>
+        </table>
+        <table tableName="ogrenci">
+            <columns name="ID" type="int" size="10" nullable="false"/>
+            <columns name="KODU" type="varchar" size="10" nullable="false"/>
+            <columns name="ADI" type="varchar" size="255" nullable="false"/>
+            <columns name="AKTIF" type="int" size="1" def="0" nullable="false"/>
+        </table>
+    </Schema>
+</tableModel>
