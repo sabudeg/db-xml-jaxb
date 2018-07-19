@@ -1,5 +1,5 @@
 ### This task is about fetching data from the database and generating xml file with it 
-
+```xml
 <tableModel>
 	<schema schemaName="OKUL">
 		<table tableName="DERS">
@@ -22,7 +22,7 @@
 		</table>
 	</schema>
 </tableModel>
-
+```
 
 
 1 - Veri tablosu yapısını barındıran aşağıdaki formatta xml dosyası var.
